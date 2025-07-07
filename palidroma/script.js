@@ -3,16 +3,13 @@
 
 //check polidroma
  function palidroma (parola){
-    const parolaAlContrario = parola.split ('') .join ('') .reverse;  //reverse e necesaria??
-    
-    return parola === parolaAlContrario;
-
-
+    const parolaAlContrario = parola.split(''). reverse(). join('');
+    return parola === parolaAlContrario
  }
 
  //verifica
 if ( palidroma (parola)){
-    console.log ("la parola è polidroma!");
+    console.log ("la parola è palidroma!");
 }else{
-    console.log("la parola NON è polidroma!")
+    console.log("la parola NON è palidroma!")
 }
