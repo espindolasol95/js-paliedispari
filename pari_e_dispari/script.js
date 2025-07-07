@@ -12,3 +12,6 @@ function numeroRandom (min , max){
 //azione computer
 const computer =numeroRandom (1 ,  5);
 console.log ("il computer ha scelto..." , computer);
+
+//somma di numeri
+const somma = utente + computer ;
