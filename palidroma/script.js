@@ -3,7 +3,7 @@
 
 //check polidroma
  function palidroma (parola){
-    const parolaAlContrario = parola.split(''). reverse(). join('');
+    const parolaAlContrario = parola.split(''). reverse(). join('') . toLowerCase();
     return parola === parolaAlContrario
  }
 

@@ -15,3 +15,9 @@ console.log ("il computer ha scelto..." , computer);
 
 //somma di numeri
 const somma = utente + computer ;
+
+//controllare se e pari o dispari
+
+
+
+
