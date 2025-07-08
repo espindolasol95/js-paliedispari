@@ -18,6 +18,14 @@ const somma = utente + computer ;
 
 //controllare se e pari o dispari
 
+function parità(sum){
+    if(sum $2===0)
+        return 'pari'
+}else {
+    return 'dispari'
+
+}
+
 
 
 
